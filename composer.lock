@@ -1,0 +1,79 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "c21252fc5e6089e77b43d4613b9d9260",
+    "packages": [
+        {
+            "name": "bukashk0zzz/yml-generator",
+            "version": "v1.11.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Bukashk0zzz/YmlGenerator.git",
+                "reference": "9d91f542e43a409dcc34c9ba412e7a674e3bb968"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Bukashk0zzz/YmlGenerator/zipball/9d91f542e43a409dcc34c9ba412e7a674e3bb968",
+                "reference": "9d91f542e43a409dcc34c9ba412e7a674e3bb968",
+                "shasum": ""
+            },
+            "require": {
+                "ext-simplexml": "*",
+                "ext-xmlwriter": "*",
+                "php": ">=5.6.1"
+            },
+            "require-dev": {
+                "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+                "escapestudios/symfony2-coding-standard": "^3.0",
+                "ext-dom": "*",
+                "friendsofphp/php-cs-fixer": "^2.3",
+                "fzaninotto/faker": "^1.6",
+                "phpcompatibility/php-compatibility": "^9.0",
+                "phpunit/phpunit": "^5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Bukashk0zzz\\YmlGenerator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Denis Golubovskiy",
+                    "email": "bukashk0zzz@gmail.com",
+                    "role": "Creator"
+                }
+            ],
+            "description": "YML (Yandex Market Language) file generator",
+            "homepage": "https://github.com/Bukashk0zzz/YmlGenerator",
+            "keywords": [
+                "market",
+                "yandex",
+                "yml",
+                "yml-generator"
+            ],
+            "support": {
+                "email": "bukashk0zzz@gmail.com",
+                "issues": "https://github.com/Bukashk0zzz/YmlGenerator/issues",
+                "source": "https://github.com/Bukashk0zzz/YmlGenerator/tree/v1.11.7"
+            },
+            "time": "2023-03-22T07:37:19+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.6.0"
+}
