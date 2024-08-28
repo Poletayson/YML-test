@@ -3,6 +3,10 @@ namespace Src;
 
 class Data
 {
+    private static string $shopName = 'Бытовая техника';
+    private static string $companyName = "ООО 'Техника в дом'";
+    private static string $companyUrl = 'http://www.tech_house.com/';
+
     private static array $categories = [
         16302535 => 'бытовая техника / техника для дома / техника для уборки / пылесосы для дома',
         90586 => 'бытовая техника / мелкая техника для кухни / приготовление напитков / электрочайники и термопоты',
@@ -33,6 +37,30 @@ class Data
     public static function getOffers(): array
     {
         return self::$offers;
+    }
+
+    /**
+     * @return string
+     */
+    public static function getShopName(): string
+    {
+        return self::$shopName;
+    }
+
+    /**
+     * @return string
+     */
+    public static function getCompanyName(): string
+    {
+        return self::$companyName;
+    }
+
+    /**
+     * @return string
+     */
+    public static function getCompanyUrl(): string
+    {
+        return self::$companyUrl;
     }
 
 
